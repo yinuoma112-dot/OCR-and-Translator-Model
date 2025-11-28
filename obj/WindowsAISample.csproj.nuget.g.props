@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\CPC\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.2</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\CPC\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.buildtools.msix\1.7.20250829.1\buildTransitive\Microsoft.Windows.SDK.BuildTools.MSIX.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.buildtools.msix\1.7.20250829.1\buildTransitive\Microsoft.Windows.SDK.BuildTools.MSIX.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.buildtools\10.0.26100.4654\buildTransitive\Microsoft.Windows.SDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.buildtools\10.0.26100.4654\buildTransitive\Microsoft.Windows.SDK.BuildTools.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.base\2.0.250911001-experimental\buildTransitive\Microsoft.WindowsAppSDK.Base.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.base\2.0.250911001-experimental\buildTransitive\Microsoft.WindowsAppSDK.Base.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.interactiveexperiences\2.0.250912002-experimental\buildTransitive\Microsoft.WindowsAppSDK.InteractiveExperiences.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.interactiveexperiences\2.0.250912002-experimental\buildTransitive\Microsoft.WindowsAppSDK.InteractiveExperiences.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.foundation\2.0.250915002-experimental\buildTransitive\Microsoft.WindowsAppSDK.Foundation.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.foundation\2.0.250915002-experimental\buildTransitive\Microsoft.WindowsAppSDK.Foundation.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.winui\2.0.250930000-experimental\buildTransitive\Microsoft.WindowsAppSDK.WinUI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.winui\2.0.250930000-experimental\buildTransitive\Microsoft.WindowsAppSDK.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.widgets\2.0.250918003-experimental\buildTransitive\Microsoft.WindowsAppSDK.Widgets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.widgets\2.0.250918003-experimental\buildTransitive\Microsoft.WindowsAppSDK.Widgets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.runtime\2.0.250930001-experimental1\buildTransitive\Microsoft.WindowsAppSDK.Runtime.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.runtime\2.0.250930001-experimental1\buildTransitive\Microsoft.WindowsAppSDK.Runtime.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.ml\2.0.28-experimental\buildTransitive\Microsoft.WindowsAppSDK.ML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.ml\2.0.28-experimental\buildTransitive\Microsoft.WindowsAppSDK.ML.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.dwrite\2.0.25091601-experimental\buildTransitive\Microsoft.WindowsAppSDK.DWrite.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.dwrite\2.0.25091601-experimental\buildTransitive\Microsoft.WindowsAppSDK.DWrite.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.ai\2.0.3-experimental\buildTransitive\Microsoft.WindowsAppSDK.AI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.ai\2.0.3-experimental\buildTransitive\Microsoft.WindowsAppSDK.AI.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk\2.0.250930001-experimental1\buildTransitive\Microsoft.WindowsAppSDK.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk\2.0.250930001-experimental1\buildTransitive\Microsoft.WindowsAppSDK.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.win32metadata\61.0.15-preview\buildTransitive\netstandard1.0\Microsoft.Windows.SDK.Win32Metadata.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.win32metadata\61.0.15-preview\buildTransitive\netstandard1.0\Microsoft.Windows.SDK.Win32Metadata.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.wdk.win32metadata\0.12.8-experimental\buildTransitive\netstandard1.0\Microsoft.Windows.WDK.Win32Metadata.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.wdk.win32metadata\0.12.8-experimental\buildTransitive\netstandard1.0\Microsoft.Windows.WDK.Win32Metadata.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.win32docs\0.1.42-alpha\buildTransitive\netstandard1.0\Microsoft.Windows.SDK.Win32Docs.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.win32docs\0.1.42-alpha\buildTransitive\netstandard1.0\Microsoft.Windows.SDK.Win32Docs.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.cswinrt\2.2.0\build\Microsoft.Windows.CsWinRT.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.cswinrt\2.2.0\build\Microsoft.Windows.CsWinRT.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.cswin32\0.3.183\build\netstandard1.0\Microsoft.Windows.CsWin32.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.cswin32\0.3.183\build\netstandard1.0\Microsoft.Windows.CsWin32.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.graphics.win2d\1.3.2\buildTransitive\net6.0-windows10.0.19041.0\Microsoft.Graphics.Win2D.props" Condition="Exists('$(NuGetPackageRoot)microsoft.graphics.win2d\1.3.2\buildTransitive\net6.0-windows10.0.19041.0\Microsoft.Graphics.Win2D.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ai.directml\1.13.1\build\Microsoft.AI.DirectML.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ai.directml\1.13.1\build\Microsoft.AI.DirectML.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Windows_SDK_BuildTools_MSIX Condition=" '$(PkgMicrosoft_Windows_SDK_BuildTools_MSIX)' == '' ">C:\Users\CPC\.nuget\packages\microsoft.windows.sdk.buildtools.msix\1.7.20250829.1</PkgMicrosoft_Windows_SDK_BuildTools_MSIX>
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\CPC\.nuget\packages\microsoft.web.webview2\1.0.3405.78</PkgMicrosoft_Web_WebView2>
+    <PkgMicrosoft_WindowsAppSDK_WinUI Condition=" '$(PkgMicrosoft_WindowsAppSDK_WinUI)' == '' ">C:\Users\CPC\.nuget\packages\microsoft.windowsappsdk.winui\2.0.250930000-experimental</PkgMicrosoft_WindowsAppSDK_WinUI>
+    <PkgMicrosoft_WindowsAppSDK_Runtime Condition=" '$(PkgMicrosoft_WindowsAppSDK_Runtime)' == '' ">C:\Users\CPC\.nuget\packages\microsoft.windowsappsdk.runtime\2.0.250930001-experimental1</PkgMicrosoft_WindowsAppSDK_Runtime>
+    <PkgMicrosoft_Windows_CsWin32 Condition=" '$(PkgMicrosoft_Windows_CsWin32)' == '' ">C:\Users\CPC\.nuget\packages\microsoft.windows.cswin32\0.3.183</PkgMicrosoft_Windows_CsWin32>
+  </PropertyGroup>
+</Project>
